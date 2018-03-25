@@ -31,6 +31,8 @@ partial(array, callback)
 
 ### partial(array, callback)
 
+Return true if and only if some elements pass the check, otherwise false.
+
 #### array
 
 Type: `Array` - Input array

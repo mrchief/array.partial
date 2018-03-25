@@ -1,6 +1,6 @@
 {
   "name": "array.partial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Like array.some, but with exclusivity. Useful when you need to determine partially selected states - like partially selecting tree nodes when some but not all child nodes are checked.",
   "main": "index.js",
