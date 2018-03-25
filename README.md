@@ -1,6 +1,6 @@
 # array.partial [![Build Status](https://travis-ci.org/mrchief/array.partial.svg?branch=master)](https://travis-ci.org/mrchief/array.partial)
 
-Like array.some but with exclusivity
+> Like array.some but with exclusivity
 
 Useful when you need to determine "partially" selected states - like partially selecting tree nodes when some but not all child nodes are checked.
 
