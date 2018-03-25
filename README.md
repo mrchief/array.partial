@@ -1,5 +1,10 @@
 # array.partial [![Build Status](https://travis-ci.org/mrchief/array.partial.svg?branch=master)](https://travis-ci.org/mrchief/array.partial)
 
+[![npm](https://img.shields.io/npm/v/array.partial.svg)](https://www.npmjs.com/package/array.partial)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/array.partial.svg)](https://bundlephobia.com/result?p=array.partial)
+
+---
+
 > Like array.some but with exclusivity
 
 Useful when you need to determine "partially" selected states - like partially selecting tree nodes when some but not all child nodes are checked.
