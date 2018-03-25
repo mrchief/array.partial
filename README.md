@@ -5,7 +5,7 @@
 
 ---
 
-> Like array.some but with exclusivity
+> When you want array.some but not array.every
 
 Useful when you need to determine "partially" selected states - like partially selecting tree nodes when some but not all child nodes are checked.
 
