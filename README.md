@@ -39,7 +39,13 @@ Type: `Array` - Input array
 
 #### callback
 
-Type: `Function` - Function is a predicate, to test each element of the array. This is called with same arguments as [array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+Type: `Function` - Function is a predicate, to test each element of the array. This is called with the following arguments:
+
+`element` - The current element being processed in the array
+
+`index` (Optional) - The index of the current element being processed in the array.
+
+`array` (Optional) - The array filter was called upon.
 
 ## Examples
 
@@ -47,17 +53,17 @@ Type: `Function` - Function is a predicate, to test each element of the array. T
 const partial = require('array.partial')
 
 const myArr = [{id: 'a1', checked: true}, {id: 'a2', checked: false}]
-partial(myArr, x => x.checked)  // -> true
+partial(myArr, x => x.checked)  // -> returns true
 
 // ...
 
 const myArr = [{id: 'a1', checked: true}, {id: 'a2', checked: true}]
-partial(myArr, x => x.checked)  // -> false
+partial(myArr, x => x.checked)  // -> returns false
 
 // ...
 
 const myArr = [{id: 'a1', checked: false}, {id: 'a2', checked: false}]
-partial(myArr, x => x.checked)  // -> false
+partial(myArr, x => x.checked)  // -> returns false
 ```
 
 ## License
