@@ -1,6 +1,6 @@
 {
   "name": "array.partial",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description":
     "When you want array.some but not array.every. Useful when you need to determine partially selected states - like partially selecting tree nodes when some but not all child nodes are checked.",
   "main": "index.js",
