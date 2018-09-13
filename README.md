@@ -29,12 +29,12 @@ npm install array.partial
 
 ```
 const partial = require('array.partial')
-partial(array, callback)
+partial(array, predicate)
 ```
 
 ## API
 
-### partial(array, callback)
+### partial(array, predicate)
 
 Return true if and only if some elements pass the check, otherwise false.
 
@@ -42,9 +42,9 @@ Return true if and only if some elements pass the check, otherwise false.
 
 Type: `Array` - Input array
 
-#### callback
+#### predicate
 
-Type: `Function` - Function is a predicate, to test each element of the array. This is called with the following arguments:
+Type: `Function` - A predicate, to test each element of the array. This is called with the following arguments:
 
 `element` - The current element being processed in the array
 
